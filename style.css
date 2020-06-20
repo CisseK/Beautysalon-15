@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Century 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+header {
+    background-image: url(./images/1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+ul {
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+}
+
+ul li a:hover {
+    background-color: turquoise;
+    color:black;
+}

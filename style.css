@@ -5,7 +5,7 @@
 }
 
 header {
-    background-image: url(./images/1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/1.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -25,10 +25,72 @@ ul li a {
     text-decoration: none;
     color: white;
     padding: 5px 20px;
-    border: 1px solid white;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
 }
 
 ul li a:hover {
     background-color: turquoise;
     color:black;
+
+}
+
+.logo {
+    float:left;
+    width: 300px;
+    height: auto;
+    margin-top: 25px;
+    color :#faf7fd;
+    border-bottom: 5px solid turquoise;
+    background-color: none;
+    font-family: serif;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+ul li.focus a {
+    background-color: turquoise;
+    color:black;
+
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1 {
+    color: #faf7fd;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+.btn{
+    position: absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-50%,-50%);  
+}
+
+.button {
+    padding: 10px 30px;
+    color: #faf7fd;
+    text-decoration: none;
+    background-color: turquoise;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+.button:hover {
+    background-color: turquoise;
+    color:black;
+
 }
